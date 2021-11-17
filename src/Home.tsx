@@ -19,13 +19,59 @@ import {
   shortenAddress,
 } from "./candy-machine";
 
-const ConnectButton = styled(WalletDialogButton)``;
+const ConnectButton = styled(WalletDialogButton)`
+    color: #ffffff!important; 
+    background-color: #f0a418!important; 
+    border-color: #BFB888!important; 
+    font-weight: bolder!important;
 
-const CounterText = styled.span``; // add your styles here
+    &:hover, &:focus {
+      color: #f0a418!important; 
+      background-color: #FEF9EF!important; 
+      border-color: #BFB888!important; 
+  } 
+  .disabled, 
+  .disabled:hover,
+  .disabled:focus, 
+  .disabled:active { 
+    background-color: #FEF9EF!important; 
+      border-color: #BFB888!important; 
+  } 
+  .badge { 
+    background-color: #FEF9EF!important; 
+      border-color: #BFB888!important; 
+  }
+  
+`;
+
+const CounterText = styled.span`
+`; // add your styles here
 
 const MintContainer = styled.div``; // add your styles here
 
-const MintButton = styled(Button)``; // add your styles here
+const MintButton = styled(Button)`
+    color: #ffffff!important; 
+    background-color: #f0a418!important; 
+    border-color: #BFB888!important; 
+    font-weight: bolder!important;
+
+    &:hover, &:focus {
+      color: #f0a418!important; 
+      background-color: #FEF9EF!important; 
+      border-color: #BFB888!important; 
+  } 
+  .disabled, 
+  .disabled:hover,
+  .disabled:focus, 
+  .disabled:active { 
+    background-color: #FEF9EF!important; 
+      border-color: #BFB888!important; 
+  } 
+  .badge { 
+    background-color: #FEF9EF!important; 
+      border-color: #BFB888!important; 
+  }
+`; // add your styles here
 
 export interface HomeProps {
   candyMachineId: anchor.web3.PublicKey;
@@ -121,6 +167,7 @@ const Home = (props: HomeProps) => {
             severity: "success",
           });
           const to_send = await JSON.stringify({"reserve": res_num-1})
+          console.log(JSON.stringify(to_send));
           await fetch(`${api_url}/whitelisted/update/${(wallet as anchor.Wallet).publicKey.toString()}/${process.env.REACT_APP_SECRET_KEY}`, {
             method: "PUT",
             headers: {
@@ -198,60 +245,67 @@ const Home = (props: HomeProps) => {
   ]);
 
   return (
-    <main>
-      {wallet && (
-        <p>Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
-      )}
-
-      {wallet && <p>Balance: {(balance || 0).toLocaleString()} SOL</p>}
-
-      {wallet && <p>Total Available: {itemsAvailable}</p>}
-
-      {wallet && <p>Redeemed: {itemsRedeemed}</p>}
-
-      {wallet && <p>Remaining: {itemsRemaining}</p>}
-
-      <MintContainer>
-        {!wallet ? (
-          <ConnectButton>Connect Wallet</ConnectButton>
-        ) : (
-          <MintButton
-            disabled={!isWhitelisted || isSoldOut || isMinting || !isActive} //change happened here
-            onClick={onMint}
-            variant="contained"
-          >
-            {isSoldOut ? (
-              "SOLD OUT"
-            ) : isActive ? (
-              isMinting ? (
-                <CircularProgress />
-              ) : (
-                "MINT"
-              )
-            ) : (
-              <Countdown
-                date={startDate}
-                onMount={({ completed }) => completed && setIsActive(true)}
-                onComplete={() => setIsActive(true)}
-                renderer={renderCounter}
-              />
-            )}
-          </MintButton>
+    <main className="container-fluid home-section">
+      <div className="intro-section"> 
+        <h1 className="intro-header">Almighty Pharaohs Collections</h1>
+        <h5 className="intro-slogan">A reality that exist in imaginative world</h5>
+      
+        {wallet && (
+          <p>Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
         )}
-      </MintContainer>
 
-      <Snackbar
-        open={alertState.open}
-        autoHideDuration={6000}
-        onClose={() => setAlertState({ ...alertState, open: false })}
-      >
-        <Alert
+        {wallet && <p>Balance: {(balance || 0).toLocaleString()} SOL</p>}
+
+        {wallet && <p>Total Available: {itemsAvailable}</p>}
+
+        {wallet && <p>Redeemed: {itemsRedeemed}</p>}
+
+        {wallet && <p>Remaining: {itemsRemaining}</p>}
+
+        <br/>
+        <br/>
+        <MintContainer>
+          {!wallet ? (
+            <ConnectButton size="large">Connect Wallet</ConnectButton>
+          ) : (
+            <MintButton
+              disabled={!isWhitelisted || isSoldOut || isMinting || !isActive} //change happened here
+              onClick={onMint}
+              variant="contained"
+            >
+              {isSoldOut ? (
+                "SOLD OUT"
+              ) : isActive ? (
+                isMinting ? (
+                  <CircularProgress />
+                ) : (
+                  "MINT Almighty Pharahos"
+                )
+              ) : (
+                <Countdown
+                  date={startDate}
+                  onMount={({ completed }) => completed && setIsActive(true)}
+                  onComplete={() => setIsActive(true)}
+                  renderer={renderCounter}
+                />
+              )}
+            </MintButton>
+          )}
+        </MintContainer>
+
+        <Snackbar
+          open={alertState.open}
+          autoHideDuration={6000}
           onClose={() => setAlertState({ ...alertState, open: false })}
-          severity={alertState.severity}
         >
-          {alertState.message}
-        </Alert>
-      </Snackbar>
+          <Alert
+            onClose={() => setAlertState({ ...alertState, open: false })}
+            severity={alertState.severity}
+          >
+            {alertState.message}
+          </Alert>
+        </Snackbar>
+      </div>
     </main>
   );
 };
