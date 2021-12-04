@@ -1,11 +1,10 @@
-import Snippet from '../imgs/snippet-gif.gif';
 import Snippet2 from '../imgs/Snippet_Selected.gif';
 import { StyledAbout } from '../styles/About.styled';
 
 export default function About() {
     return (
         <>
-            <StyledAbout id="about" className="about-proj">
+            <StyledAbout id="about" className="about-project">
                 <div className="about-header">
                     <h1>Almighty Pharaohs Collections</h1>
                     <hr className="horizontal-line"/>
@@ -31,6 +30,7 @@ export default function About() {
                             software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     </div>
                 </div>
+                <br/>
                 <br/>
                 <br/>
                 <br/>

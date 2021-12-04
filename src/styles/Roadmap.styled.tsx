@@ -73,7 +73,7 @@ export const StyledRoadmap = styled.section`
         color: #f3c04f;
     }
 
-    @media (min-width: 768px) {
+    @media (max-width: 768px) {
         .roadmap-circleBox {
             width: 30px;
             height: 30px;
@@ -82,6 +82,7 @@ export const StyledRoadmap = styled.section`
         .roadmap-circleLine {
             top: 30px;
             left: 15px;
+            height: 250px;
         }
 
     }

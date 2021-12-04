@@ -27,6 +27,10 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Roadmap from "./components/Roadmap";
 import Teams from "./components/Teams";
+import Faq from "./components/Faq";
+import { AppConstants } from "./common/AppConstants";
+import Family from "./components/Family";
+import Attributes from "./components/Attributes";
 
 const treasury = new anchor.web3.PublicKey(
   process.env.REACT_APP_TREASURY_ADDRESS!
@@ -90,6 +94,63 @@ const App = () => {
 
   return (
       <>
+      {/* <Router>
+        
+          <ThemeProvider theme={theme}>
+            <>
+              <GlobalStyles />
+              <Header/>
+              <ConnectionProvider endpoint={endpoint}>
+                <WalletProvider wallets={wallets} autoConnect={true}>
+                  <WalletDialogProvider>
+                    <Route path="/" 
+                    element={
+                    <Home
+                      candyMachineId={candyMachineId}
+                      config={config}
+                      connection={connection}
+                      startDate={startDateSeed}
+                      treasury={treasury}
+                      txTimeout={txTimeout} />
+                    }/>
+
+                  </WalletDialogProvider>
+                </WalletProvider>
+              </ConnectionProvider>
+              <Routes>
+              <Route path="/" 
+                    element={
+                    <Home
+                      candyMachineId={candyMachineId}
+                      config={config}
+                      connection={connection}
+                      startDate={startDateSeed}
+                      treasury={treasury}
+                      txTimeout={txTimeout} />
+                    }/>
+              <Route path="/home" 
+                    element={
+                    <Home
+                      candyMachineId={candyMachineId}
+                      config={config}
+                      connection={connection}
+                      startDate={startDateSeed}
+                      treasury={treasury}
+                      txTimeout={txTimeout} />
+              }/>
+                <Route path="/about" element={<About/>} />
+                <Route path="/family" element={<Family/>} />
+                <Route path="/roadmap" element={<Roadmap/>} />
+                <Route path="/teams" element={<Teams/>} />
+                <Route path="/faqs" element={<Faq faqItems={AppConstants.FAQ}/>} />
+              </Routes>
+
+              <Footer/>
+            </>
+          </ThemeProvider>
+
+      </Router> */}
+
         <ThemeProvider theme={theme}>
           <>
             <GlobalStyles />
@@ -109,8 +170,11 @@ const App = () => {
               </WalletProvider>
             </ConnectionProvider>
             <About/>
+            <Family/>
             <Roadmap/>
             <Teams/>
+            <Faq faqItems={AppConstants.FAQ}/>
+            <Attributes/>
             <Footer/>
           </>
         </ThemeProvider>

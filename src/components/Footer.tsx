@@ -5,7 +5,7 @@ export default function Footer() {
         <>
             <StyledFooter>
                     <div className="footerContent">
-                        <span>&copy; 2021 Almight Pharaohs</span>
+                        <span>&copy; 2021 Almight Pharaohs. All rights reserved.</span>
                     </div>
             </StyledFooter>
         </>

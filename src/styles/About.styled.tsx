@@ -7,6 +7,7 @@ export const StyledAbout = styled.section`
         background-image: none;
         display: flex;
         flex-direction: column;
+        border-bottom: 1px solid black;
     }
 
     .about-header {
@@ -71,13 +72,41 @@ export const StyledAbout = styled.section`
     }
 
     .horizontal-line {
-            margin-top: 0;
-            background-color: #f3c04f;
-            color: #ebd93b;
-            border-top: 2px solid #fff;
-            margin-left: 37%;
-            width: 30%;
-            height: 4px;
+        margin-top: 0;
+        background-color: #f3c04f;
+        color: #ebd93b;
+        border-top: 2px solid #fff;
+        margin-left: 37%;
+        width: 30%;
+        height: 4px;
+    }
+
+    /* Small devices (tablets, 768px and below) */
+    @media (max-width: 768px) { 
+        .about-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
         }
 
+        .about-snippet {
+            width: 45%;
+            height: 40%;
+        }
+
+        .about-description {
+            width: 80%;
+            margin-top: 10%;
+        }
+
+        .about-description p {
+            color: rgba(71, 50, 11, 0.904);
+            padding-left: 5%;
+            padding-right: 5%;
+            font-size: 12px;
+        }
+        .about-header {
+            margin-top: 5%;
+        }
+    }
 `;

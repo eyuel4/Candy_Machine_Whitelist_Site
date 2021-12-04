@@ -55,4 +55,31 @@ export const StyledHeader = styled.nav `
        padding: 0;
        margin: 0;
    }
+
+   .nav-item > .active {
+    border-bottom: 1px solid #333;
+    }
+
+    /* Small devices (tablets, 768px and up) */
+    @media (min-width: 768px) { 
+        .brand-title {
+            color: rgb(245, 171, 33);
+            font-size: 0.1em;
+            font-weight: bold;
+        }
+
+        .container-fluid {
+            padding: 0;
+            margin: 0;
+        }
+     }
+
+    /* Medium devices (desktops, 992px and up) */
+    @media (min-width: 992px) { 
+        .brand-title {
+            color: rgb(245, 171, 33);
+            font-size: 1em;
+            font-weight: bold;
+        }
+    }
 `;

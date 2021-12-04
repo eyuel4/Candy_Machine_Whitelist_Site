@@ -18,6 +18,7 @@ import {
   mintOneToken,
   shortenAddress,
 } from "./candy-machine";
+import Solana_Logo from "./imgs/solana_image.png";
 
 const ConnectButton = styled(WalletDialogButton)`
     color: #ffffff!important; 
@@ -248,7 +249,8 @@ const Home = (props: HomeProps) => {
     <main className="container-fluid home-section">
       <div className="intro-section"> 
         <h1 className="intro-header">Almighty Pharaohs Collections</h1>
-        <h5 className="intro-slogan">A reality that exist in imaginative world</h5>
+        <h5 className="intro-slogan">The Pharahos are here to conquere Solana Universe.</h5>
+        <img src={Solana_Logo} width="20%" height="20%" alt="Almighty Pharahos Execlusive on Solana"/>
       
         {wallet && (
           <p>Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}</p>

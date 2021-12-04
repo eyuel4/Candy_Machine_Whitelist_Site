@@ -1,22 +1,25 @@
 import {createGlobalStyle} from "styled-components";
-import BackGroundImage from "../imgs/background-2.jpg";
+import BackGroundImage from "../imgs/background-5.jpg";
+// import BackGroundImage from "../imgs/background-2.jpg";
 
 const GlobalStyles = createGlobalStyle`
     body {
         background-color: #fff2e3;
-        //background-image: url(${BackGroundImage});
-        //background-repeat:no-repeat;
+        /* background-image: url(${BackGroundImage}); */
+        /* background-repeat:no-repeat; */
         /* background-size:cover; */
-        //background-position:center center;
+        /* background-position:center center; */
         height: auto;
         margin: 0;
         padding: 0;
+        border: 0;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
             'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
             sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         color: #FFFFFF;
+        overflow-x: hidden;
     }
   
     .App {
@@ -84,6 +87,22 @@ const GlobalStyles = createGlobalStyle`
         width: 30%;
         height: 4px;
     }
+
+    /* Small devices (tablets, 768px and below) */
+    @media (max-width: 768px) { 
+        .intro-header {
+            margin-top: 50%;
+            color: rgb(245, 171, 33);
+            font-size: calc(2em + 1vw);
+            font-weight: bolder;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+    }
+
+
 `;
 
 export default GlobalStyles;

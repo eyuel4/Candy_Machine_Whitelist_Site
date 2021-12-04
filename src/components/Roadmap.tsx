@@ -12,8 +12,6 @@ export default function Roadmap() {
                 </div>
                 <br/>
                 <RoadmapItem roadmapItems={AppConstants.ROADMAP_ITEMS}></RoadmapItem>
-                <br/>
-                <br/>
             </StyledRoadmap>
         </>
     );
