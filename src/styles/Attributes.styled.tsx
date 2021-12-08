@@ -27,9 +27,8 @@ export const StyledAttributes = styled.section`
         flex-direction: column;
         width: 30%;
     }
-    
     .attribute-content h6 {
-        color: #f3c04f;
+        color: #493304!important;
         padding-top: 5%;
     }
 

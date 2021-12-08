@@ -27,7 +27,6 @@ export default function Teams() {
                             <p>Crypto Ethuist entrepreneur and software engineer with 7 years of experience working for different companies.</p>
                             <ul className="list-unstyled mt-3 social-icon social mb-0">
                                 <li className="list-inline-item"><a href="javascript:void(0)" className="rounded"><i className="bi bi-twitter" title="Twitter"></i></a></li>
-                                <li className="list-inline-item"><a href="javascript:void(0)" className="rounded"><i className="bi bi-instagram" title="Instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>

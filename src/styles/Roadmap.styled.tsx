@@ -27,7 +27,7 @@ export const StyledRoadmap = styled.section`
 
     .roadmap-item {
         display: flex;
-        color: black;
+        color: #493304!important;
         align-items: flex-start;
         justify-content: flex-start;
         margin-top: 0;
@@ -60,7 +60,7 @@ export const StyledRoadmap = styled.section`
         align-items: flex-start;
         height: 150px;
         border-left: 5px solid rgb(175, 142, 50);
-        color: black;
+        color: #493304!important;
     }
 
     .roadmap-detail {

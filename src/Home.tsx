@@ -249,10 +249,10 @@ const Home = (props: HomeProps) => {
     <main className="container-fluid home-section">
       <div className="intro-section"> 
         <h1 className="intro-header">Almighty Pharaohs Collections</h1>
-        <h5 className="intro-slogan">The Pharahos are here to conquere Solana Universe.</h5>
-        <img src={Solana_Logo} width="20%" height="20%" alt="Almighty Pharahos Execlusive on Solana"/>
+        <h5 className="intro-slogan">The Pharaohs are here to conquere Solana Universe.</h5>
+        <img src={Solana_Logo} width="20%" height="20%" alt="Almighty Pharaohs Execlusive on Solana"/>
       
-        {wallet && (
+        {/* {wallet && (
           <p>Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
         )}
 
@@ -262,7 +262,7 @@ const Home = (props: HomeProps) => {
 
         {wallet && <p>Redeemed: {itemsRedeemed}</p>}
 
-        {wallet && <p>Remaining: {itemsRemaining}</p>}
+        {wallet && <p>Remaining: {itemsRemaining}</p>} */}
 
         <br/>
         <br/>
@@ -281,7 +281,7 @@ const Home = (props: HomeProps) => {
                 isMinting ? (
                   <CircularProgress />
                 ) : (
-                  "MINT Almighty Pharahos"
+                  "MINT Almighty Pharaohs"
                 )
               ) : (
                 <Countdown
