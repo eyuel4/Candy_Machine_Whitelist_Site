@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { StyledFaqItem } from "../styles/FaqItem.styled";
-import { FaqItem } from "./Faq";
+import { FaqItem } from "./FaqComponent";
 
 export interface FaqItemProp {
     faqItem: FaqItem;

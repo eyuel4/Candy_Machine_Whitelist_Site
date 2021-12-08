@@ -27,10 +27,10 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Roadmap from "./components/Roadmap";
 import Teams from "./components/Teams";
-import Faq from "./components/Faq";
 import { AppConstants } from "./common/AppConstants";
 import Family from "./components/Family";
 import Attributes from "./components/Attributes";
+import FaqComponent from "./components/FaqComponent";
 
 const treasury = new anchor.web3.PublicKey(
   process.env.REACT_APP_TREASURY_ADDRESS!
@@ -173,7 +173,7 @@ const App = () => {
             <Family/>
             <Roadmap/>
             <Teams/>
-            <Faq faqItems={AppConstants.FAQ}/>
+            <FaqComponent faqItems={AppConstants.FAQ}/>
             <Attributes/>
             <Footer/>
           </>

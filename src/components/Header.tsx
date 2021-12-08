@@ -1,6 +1,6 @@
 import { StyledHeader } from "../styles/Header.styled";
 import Logo from "../imgs/Almighty_Pharaohs_2.png";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 export default function Header() {
     return (

@@ -1,6 +1,5 @@
 import { StyledFaq } from "../styles/Faq.styled";
 import FaqItemComponent from "./FaqItemComponent";
-import FaqItem from "./FaqItemComponent";
 
 export interface FaqItem {
     title: string;
@@ -11,7 +10,7 @@ export interface FaqProps {
     faqItems: FaqItem[];
 }
 
-export default function Faq(props: FaqProps) {
+export default function FaqComponent(props: FaqProps) {
     return (
         <>
             <StyledFaq id="faqs" className="Faq-container">

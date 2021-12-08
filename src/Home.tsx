@@ -84,7 +84,7 @@ export interface HomeProps {
 }
 
 const Home = (props: HomeProps) => {
-  const [api_url, setUrl] = useState(process.env.REACT_APP_API_URL)
+  const [api_url] = useState(process.env.REACT_APP_API_URL)
   const [balance, setBalance] = useState<number>();
   const [isActive, setIsActive] = useState(false); // true when countdown completes
   const [isSoldOut, setIsSoldOut] = useState(false); // true when items remaining is zero
@@ -237,7 +237,7 @@ const Home = (props: HomeProps) => {
         }
       }
     })();
-  }, [wallet, props.connection]);
+  }, [wallet, props.connection, api_url]);
 
   useEffect(refreshCandyMachineState, [
     wallet,
@@ -251,18 +251,20 @@ const Home = (props: HomeProps) => {
         <h1 className="intro-header">Almighty Pharaohs Collections</h1>
         <h5 className="intro-slogan">The Pharaohs are here to conquere Solana Universe.</h5>
         <img src={Solana_Logo} width="20%" height="20%" alt="Almighty Pharaohs Execlusive on Solana"/>
-      
-        {/* {wallet && (
-          <p>Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
-        )}
+        <div className='hidden-detail'>
+          {wallet && (
+            <p>Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
+          )}
 
-        {wallet && <p>Balance: {(balance || 0).toLocaleString()} SOL</p>}
+          {wallet && <p>Balance: {(balance || 0).toLocaleString()} SOL</p>}
 
-        {wallet && <p>Total Available: {itemsAvailable}</p>}
+          {wallet && <p>Total Available: {itemsAvailable}</p>}
 
-        {wallet && <p>Redeemed: {itemsRedeemed}</p>}
+          {wallet && <p>Redeemed: {itemsRedeemed}</p>}
 
-        {wallet && <p>Remaining: {itemsRemaining}</p>} */}
+          {wallet && <p>Remaining: {itemsRemaining}</p>}
+
+        </div>
 
         <br/>
         <br/>

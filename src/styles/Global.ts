@@ -88,6 +88,10 @@ const GlobalStyles = createGlobalStyle`
         height: 4px;
     }
 
+    .hidden-detail {
+        display: none;
+    }
+    
     /* Small devices (tablets, 768px and below) */
     @media (max-width: 768px) { 
         .intro-header {
