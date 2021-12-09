@@ -1,6 +1,6 @@
 import {createGlobalStyle} from "styled-components";
 import BackGroundImage from "../imgs/background-5.jpg";
-// import BackGroundImage from "../imgs/background-2.jpg";
+import BackGroundImageMobile from "../imgs/background-6.jpg";
 
 const GlobalStyles = createGlobalStyle`
     body {
@@ -91,7 +91,7 @@ const GlobalStyles = createGlobalStyle`
     .hidden-detail {
         display: none;
     }
-    
+
     /* Small devices (tablets, 768px and below) */
     @media (max-width: 768px) { 
         .intro-header {
@@ -103,6 +103,15 @@ const GlobalStyles = createGlobalStyle`
 
         body {
             overflow-x: hidden;
+        }
+
+        /** Style for Home Page */
+        .home-section {
+            background-image: url(${BackGroundImageMobile});
+            background-repeat:no-repeat;
+            background-size:cover;
+            background-position:center;
+            height: auto;
         }
     }
 
