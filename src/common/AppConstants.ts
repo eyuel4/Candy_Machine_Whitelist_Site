@@ -1,4 +1,4 @@
-import HeadImage from '../imgs/snippet4.jpg';
+import HeadImage from '../imgs/team1.jpg';
 
 export const AppConstants: any = {
      ROADMAP_ITEMS : [
