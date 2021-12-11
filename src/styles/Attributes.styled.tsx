@@ -35,5 +35,6 @@ export const StyledAttributes = styled.section`
     .attribute-content img {
         width: 45%;
         height: 55%;
+        background-color: #eee9bab7;
     }
 `

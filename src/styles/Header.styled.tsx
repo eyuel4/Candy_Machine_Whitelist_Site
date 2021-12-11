@@ -40,6 +40,11 @@ export const StyledHeader = styled.nav `
       font-size: 2em;
       color: rgb(245, 171, 33);
     }
+
+  .bi-instagram {
+    font-size: 2em;
+    color: rgb(245, 171, 33);
+  }
     
   .navbar-nav > li{
       padding-left:30px;

@@ -1,4 +1,13 @@
 import HeadImage from '../imgs/team1.jpg';
+import BackGroundColorAttribute from '../imgs/Background-attribute.png';
+import BackWeaponAttribute from '../imgs/BackWeapon-attribute.png';
+import ClothAttribute from '../imgs/Cloth-attribute.png';
+import HandWeaponAttribute from '../imgs/HandWeapon-attribute.png';
+import HatAttribute from '../imgs/Hat-attribute.png';
+import NecklaceAttribute from '../imgs/NecklaceBlue-attribute.png';
+import BodyAttribute from '../imgs/Body-attribute.png';
+import BodyColorAttribute from '../imgs/BodyColorAttribute.png';
+
 
 export const AppConstants: any = {
      ROADMAP_ITEMS : [
@@ -108,38 +117,38 @@ export const AppConstants: any = {
             altText:"Head Attributes"
         },
         {
-            name: "Body",
-            imageUrl:HeadImage,
-            altText: "Body Attributes"
-        },
-        {
             name: "Body Color",
-            imageUrl:HeadImage,
+            imageUrl: BodyColorAttribute,
             altText: "Body Color Attributes"
         },
         {
             name: "Background Color",
-            imageUrl:HeadImage,
+            imageUrl:BackGroundColorAttribute,
             altText: "Background Color Attributes"
         },
         {
             name: "Head Hats",
-            imageUrl:HeadImage,
+            imageUrl:HatAttribute,
             altText: "Head Hats Attributes"
         },
         {
             name: "Chains & Necklaces",
-            imageUrl:HeadImage,
+            imageUrl:NecklaceAttribute,
             altText: "Chain & Necklaces Attributes"
         },
         {
-            name: "Weapons",
-            imageUrl:HeadImage,
+            name: "Hand Weapons",
+            imageUrl:HandWeaponAttribute,
             altText: "Weapons Attributes"
         },
         {
+            name: "Back Weapons",
+            imageUrl:BackWeaponAttribute,
+            altText: "Back Weapons Attributes"
+        },
+        {
             name: "Cloths",
-            imageUrl:HeadImage,
+            imageUrl:ClothAttribute,
             altText: "Cloths Attributes"
         }
         
