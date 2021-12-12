@@ -21,9 +21,8 @@ export default function About() {
                         <h4>About </h4>
 
                         <p>
-                           2000 Egyptian Gods have come to conquere Solana world. The story of Ancient Egypt begins from when the north and the south were united as one country under the first pharaoh Menes.
-                           Almighty Pharaohs were in Egypt around 3100 BC the pharaoh of the north conquered the south and Egypt became united. 
-                           Almighty Pharaohs have now come to Solana world. Currently they have marched 2000 Pharaohs of which some of them have different power, traits and skill on fight.
+                           2000 Egyptian Gods have come to conquere Solana world. The story of Almighty Pharaohs begins around 3100 BC in Anchient Egypt from when the north and the south were united as one country under the first pharaoh Menes.
+                           The 2000 Pharaohs are created by generative algorithm of which each of them have different power, traits and skill on fight.
                            The Kings will be joining the war and once the mint war is over they will be brining there queen and kids to Solana Universe once they secure it's safe.
                             
                             {/* Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
