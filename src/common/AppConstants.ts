@@ -29,7 +29,7 @@ export const AppConstants: any = {
                 ['Public Sale of 2250 Almighty Pharaho Kings.', false],
                 ['Secondary marketplace listing.', false],
                 ['Release of Rarity Ranking for Almighty Pharaho Kings.', false],
-                ['Donation of 25% of Royality Fee goes to building school in Ethiopia.', false]
+                ['Donation of 25% of Royality Fee goes to building school in Africa.', false]
             ]),
             status: false
         },

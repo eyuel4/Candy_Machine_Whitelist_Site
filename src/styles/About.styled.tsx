@@ -81,6 +81,10 @@ export const StyledAbout = styled.section`
         height: 4px;
     }
 
+    .card-img {
+        width: 120%!important;
+    }
+
     /* Small devices (tablets, 768px and below) */
     @media (max-width: 768px) { 
         .about-content {
@@ -107,6 +111,10 @@ export const StyledAbout = styled.section`
         }
         .about-header {
             margin-top: 5%;
+        }
+
+        .card-img {
+            width: 125%!important;
         }
     }
 `;
