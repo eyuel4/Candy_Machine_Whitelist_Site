@@ -17,7 +17,7 @@ export const AppConstants: any = {
                 ['Let the world know about Almighty Pharaohs', true],
                 ['Twitter and Discord marketing campaigns', true],
                 ['GiveAways and Collaborations', false],
-                ['Open up Registeration for 200 Pre-Sale', false],
+                ['Open up Registeration for 250 Pre-Sale', false],
                 ['Assign roles on discord', false],
             ]),
             status: true
@@ -25,8 +25,8 @@ export const AppConstants: any = {
         {
             title: '02 - Mint Day I',
             tasks:  new Map<string, boolean>([
-                ['Pre-Sale of 200 Almighty Pharaho Kings', false],
-                ['Public Sale of 1800 Almighty Pharaho Kings.', false],
+                ['Pre-Sale of 250 Almighty Pharaho Kings', false],
+                ['Public Sale of 2250 Almighty Pharaho Kings.', false],
                 ['Secondary marketplace listing.', false],
                 ['Release of Rarity Ranking for Almighty Pharaho Kings.', false],
                 ['Donation of 25% of Royality Fee goes to building school in Ethiopia.', false]
@@ -47,7 +47,7 @@ export const AppConstants: any = {
             title: '04 - Mint Day II (Almighty Pharaho Queens).',
             tasks: new Map<string, boolean>([
                 ['Pre-Sale of 200 3D Almighty Pharaho Queens.', false],
-                ['Public Mint of 1300 3D Almighty Pharaho Queens.', false],
+                ['Public Mint of 1800 3D Almighty Pharaho Queens.', false],
                 ['Secondary marketplace launch of 3D Almgithy Pharaho Queens', false],
                 ['Release of Rarity Ranking for 3D Almighty Pharaho Queens.', false],
                 ['Almgihty Pharaohs DAO development initialization.', false]
