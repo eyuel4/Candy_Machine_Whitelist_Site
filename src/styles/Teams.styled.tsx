@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const StyledTeams = styled.div`
+export const StyledTeams = styled.section`
+    .row {
+        margin: 0;
+    }
+
     .img-fluid {
         width: 80%;
     }
@@ -145,6 +149,10 @@ export const StyledTeams = styled.div`
             transition: all 0.4s ease;
             overflow: hidden;
             position: relative;
+        }
+
+        .row {
+            margin: 0;
         }
     }
 

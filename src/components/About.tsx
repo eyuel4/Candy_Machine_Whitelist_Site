@@ -1,7 +1,4 @@
-// import Snippet2 from '../imgs/Snippet_Selected.gif';
-// import Snippet2 from '../imgs/Snippet-Final.gif';
 import Snippet2 from '../imgs/Snippet_zoomed_sample1.gif';
-// import Snippet2 from '../imgs/Snippet_Normal_sample2.gif';
 import { StyledAbout } from '../styles/About.styled';
 
 export default function About() {

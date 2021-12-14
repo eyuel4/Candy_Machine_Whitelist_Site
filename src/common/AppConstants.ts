@@ -78,19 +78,19 @@ export const AppConstants: any = {
         },
         {
             title: "When is the drop?",
-            answer: "Mint button will be available on January 05, 2021 "
+            answer: "Mint button will be available on Feb 05, 2021 "
         },
         {
             title: "How many Almighty Pharaho Kings are there?",
-            answer: "There are 1500 Almighty Pharaohs for first mint with unique traits"
+            answer: "There are 2500 Almighty Pharaohs for first mint with unique traits"
         },
         {
             title: "Is there pre-sale?",
-            answer: "There will be 200 Almgithy Pharaohs reserved for private sale. Make sure to follow our Twitter and join our Discord."
+            answer: "There will be 250 Almgithy Pharaohs reserved for private sale. Make sure to follow our Twitter and join our Discord."
         },
         {
             title: "How much is Almighty Pharaho Kings?",
-            answer: "Mint price will be 0.99 SOL for both pre-sale and public-sale."
+            answer: "SOL price is fluctuating daily. We will be observing the price and make adjustment.Mint price will be between 1 - 2 SOL for both pre-sale and public-sale."
         },
         {
             title: "Is there early supporter rewards?",
