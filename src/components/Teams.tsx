@@ -1,7 +1,7 @@
 import { StyledTeams } from "../styles/Teams.styled";
-import Team1_Img from '../imgs/team1.jpg';
-import Team2_Img from '../imgs/team2.jpg';
-import Team3_Img from '../imgs/team3.jpg';
+import Team11_Img from '../imgs/128.png';
+import Team22_Img from '../imgs/969.png';
+import Team33_Img from '../imgs/921.png';
 
 export default function Teams() {
     return (
@@ -20,7 +20,7 @@ export default function Teams() {
             <div className="row">
                 <div className="col-lg-3 col-md-4 col-12 mt-2 pt-2">
                     <div className="team text-center rounded p-1 py-2">
-                        <img src={Team1_Img} className="img-fluid avatar avatar-medium shadow rounded-pill" alt=""/>
+                        <img src={Team11_Img} className="img-fluid avatar avatar-medium shadow rounded-pill" alt=""/>
                         <div className="content mt-3">
                             <h4 className="title mb-0">Double Falcon</h4>
                             <small className="text-muted">Founder/Developer</small>
@@ -34,7 +34,7 @@ export default function Teams() {
                 
                 <div className="col-lg-3 col-md-2 col-12 mt-2 pt-2">
                     <div className="team text-center rounded p-1 py-2">
-                        <img src={Team2_Img} className="img-fluid avatar avatar-medium shadow rounded-pill" alt=""/>
+                        <img src={Team22_Img} className="img-fluid avatar avatar-medium shadow rounded-pill" alt=""/>
                         <div className="content mt-3">
                             <h4 className="title mb-0">Necho I</h4>
                             <small className="text-muted">Digital Artist</small>
@@ -49,7 +49,7 @@ export default function Teams() {
                 
                 <div className="col-lg-3 col-md-2 col-12 mt-1 pt-1">
                     <div className="team text-center rounded p-1 py-2">
-                        <img src={Team3_Img} className="img-fluid avatar avatar-small shadow rounded-pill" alt=""/>
+                        <img src={Team33_Img} className="img-fluid avatar avatar-small shadow rounded-pill" alt=""/>
                         <div className="content mt-3">
                             <h4 className="title mb-0">Zoser</h4>
                             <small className="text-muted">3D Artist</small>

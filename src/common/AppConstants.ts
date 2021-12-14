@@ -1,4 +1,3 @@
-import HeadImage from '../imgs/team1.jpg';
 import BackGroundColorAttribute from '../imgs/Background-attribute.png';
 import BackWeaponAttribute from '../imgs/BackWeapon-attribute.png';
 import ClothAttribute from '../imgs/Cloth-attribute.png';
@@ -6,6 +5,7 @@ import HandWeaponAttribute from '../imgs/HandWeapon-attribute.png';
 import HatAttribute from '../imgs/Hat-attribute.png';
 import NecklaceAttribute from '../imgs/NecklaceBlue-attribute.png';
 import BodyColorAttribute from '../imgs/BodyColorAttribute.png';
+import HeadImage from '../imgs/team3.jpg'
 
 
 export const AppConstants: any = {
