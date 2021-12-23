@@ -21,19 +21,11 @@ export default function About() {
                         <h4>About </h4>
 
                         <p>
-                           The story of Almighty Pharaohs begins around 3100 BC in Anchient Egypt from when the north and the south were united as one country under the first pharaoh Menes.
-                           2500 Egyptian Pharaohs have come to conquere Solana world. The 2500  Pharaohs are created by generative algorithm of which each of them have different power, traits and skill on fight.
-                           The Kings will be joining the war and once the mint war is over they will be brining there queen and kids to Solana Universe once they secure it's safe.
-                            
-                            {/* Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen 
-                            book. It has survived not only five centuries, but also the leap into 
-                            electronic typesetting, remaining essentially unchanged.
-                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                            and more recently with desktop publishing 
-                            software like Aldus PageMaker including versions of Lorem Ipsum. */}
-                            </p>
+                            The story of Almighty Pharaohs begins around 3100 BC in Ancient Egypt from when the north and the south were united as one country under the first pharaoh Menes.
+                            2500 Egyptian Pharaohs have come to conquer Solana world. 
+                            The 2500 Pharaohs are created by a generative algorithm of which each of them has different power, traits, and skill in a fight.
+                            The Kings will be joining the war and once the mint war is over they will be bringing their queen and kids to Solana Universe once they secure its safe.
+                        </p>
                     </div>
                 </div>
                 <br/>

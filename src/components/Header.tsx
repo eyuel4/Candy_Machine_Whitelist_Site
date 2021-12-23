@@ -33,9 +33,9 @@ export default function Header() {
                     </ul>
                     <div className="d-flex">
                         <ul> 
-                            <li><span className="social-icon"><a href="https://www.instagram.com/almightypharaohs"><i className="bi bi-discord fa-lg"></i></a></span></li>
+                            <li><span className="social-icon"><a href="https://discord.gg/76G3wDhA"><i className="bi bi-discord fa-lg"></i></a></span></li>
                             <li><span className="social-icon"><a href="https://twitter.com/AlmightyPharaoz"><i className="bi bi-twitter fa-lg"></i></a></span></li>
-                            <li><span className="social-icon"><a href="https://twitter.com/AlmightyPharaoz"><i className="bi bi-instagram fa-lg"></i></a></span></li>
+                            <li><span className="social-icon"><a href="https://www.instagram.com/almightypharaohs"><i className="bi bi-instagram fa-lg"></i></a></span></li>
                         </ul>
                     </div>
                 </div>

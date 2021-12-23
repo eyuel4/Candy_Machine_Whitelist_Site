@@ -4,8 +4,9 @@ import ClothAttribute from '../imgs/Cloth-attribute.png';
 import HandWeaponAttribute from '../imgs/HandWeapon-attribute.png';
 import HatAttribute from '../imgs/Hat-attribute.png';
 import NecklaceAttribute from '../imgs/NecklaceBlue-attribute.png';
-import BodyColorAttribute from '../imgs/BodyColorAttribute.png';
-import HeadImage from '../imgs/team3.jpg'
+import BodyColorAttribute from '../imgs/Body_Attribute_Color.png';
+import HeadImage from '../imgs/team3.jpg';
+import ShieldWeaponAttributes from '../imgs/Shield_Weapon_Attribute.png';
 
 
 export const AppConstants: any = {
@@ -141,6 +142,11 @@ export const AppConstants: any = {
             altText: "Weapons Attributes"
         },
         {
+            name: "Shield Weapon",
+            imageUrl: ShieldWeaponAttributes,
+            altText: "Shield Attributes"
+        },
+        {
             name: "Back Weapons",
             imageUrl:BackWeaponAttribute,
             altText: "Back Weapons Attributes"
@@ -152,5 +158,4 @@ export const AppConstants: any = {
         }
         
     ]
-
 }

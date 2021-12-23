@@ -249,7 +249,7 @@ const Home = (props: HomeProps) => {
     <main className="container-fluid home-section">
       <div className="intro-section"> 
         <h1 className="intro-header">Almighty Pharaohs Collections</h1>
-        <h5 className="intro-slogan">The Pharaohs are here to conquere Solana Universe.</h5>
+        <h5 className="intro-slogan">The Pharaohs are here to conquer Solana Universe.</h5>
         <img src={Solana_Logo} width="20%" height="20%" alt="Almighty Pharaohs Execlusive on Solana"/>
         <div className='hidden-detail'>
           {wallet && (
