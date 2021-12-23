@@ -67,7 +67,7 @@ const GlobalStyles = createGlobalStyle`
     }
 
     .intro-header {
-        margin-top: 13%;
+        margin-top: 15%;
         color: rgb(245, 171, 33);
         font-size: calc(3em + 1vw);
         font-weight: bolder;

@@ -22,14 +22,14 @@ export const StyledFaqItem = styled.div `
         display: none;
         p {
             margin-top: 2%;
-            font-size: 18px;
+            font-size: 16px;
         }
     }
 
     .drop_down_expanded {
         display: inline!important;
         height: 160px;
-        font-size: 20px;
+        font-size: 16px;
         line-height: 40px;
 
         p {
@@ -48,6 +48,14 @@ export const StyledFaqItem = styled.div `
         svg {
             padding-left: 5%;
         }
+    }
+
+    .showicon {
+        display: block;
+    }
+
+    .hideicon {
+        display: none;
     }
 
     @media (max-width: 768px) {

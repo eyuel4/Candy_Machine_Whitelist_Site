@@ -31,6 +31,6 @@ export default function FaqComponent(props: FaqProps) {
 export function getFaqItems2(faqItems: FaqItem[]) {
 
     return faqItems.map((item, index) => {
-        return <FaqItemComponent faqItem={item}/>
+        return <FaqItemComponent key={index} faqItem={item}/>
     });
 }
