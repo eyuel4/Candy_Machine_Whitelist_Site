@@ -103,6 +103,11 @@ export const StyledTeams = styled.section`
         position: relative;
     }
 
+    .social-icon.social li a:hover {
+            color: #e7c921;
+            border-color: #e9c214;
+    }
+
     @media (max-width: 768px) {
         .team-list img
         .team-list .content {

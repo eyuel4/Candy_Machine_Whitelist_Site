@@ -28,7 +28,7 @@ export const StyledHeader = styled.nav `
   }
   
   .social-icon:hover {
-      border: #fff solid 1px;
+      border: #f0bc11 solid 1px;
   }
     
   .bi-discord {

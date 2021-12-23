@@ -38,10 +38,10 @@ export default function Teams() {
                         <div className="content mt-3">
                             <h4 className="title mb-0">Necho I</h4>
                             <small className="text-muted">Digital Artist</small>
-                            <p>A talented 2D digital artist who can bring amazing ideas to life. A talented 2D digital artist who can bring amazing ideas to life. </p>
+                            <p>An enthusiastic illustrator with a keen eye for artistic detail and a creative graphics designer.</p>
                             <ul className="list-unstyled mt-3 social-icon social mb-0">
-                                <li className="list-inline-item"><a href="http://Twitter.com/robxarts" className="rounded"><i className="bi bi-twitter" title="Twitter"></i></a></li>
-                                <li className="list-inline-item"><a href="http://Instagram.com/robxarts" className="rounded"><i className="bi bi-instagram" title="Instagram"></i></a></li>
+                                <li className="list-inline-item"><a href="https://Twitter.com/robxarts" className="rounded"><i className="bi bi-twitter" title="Twitter"></i></a></li>
+                                <li className="list-inline-item"><a href="https://Instagram.com/robxarts" className="rounded"><i className="bi bi-instagram" title="Instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ export default function Teams() {
                             <p>A creative CG Artist with a profound potential to show the world by bringing surreal imaginations to reality.</p>
                             <ul className="list-unstyled mt-3 social-icon social mb-0">
                                 <li className="list-inline-item"><a href="https://twitter.com/nate_graphics" className="rounded"><i className="bi bi-twitter" title="Twitter"></i></a></li>
-                                <li className="list-inline-item"><a href="http://instagram.com/nategraphics" className="rounded"><i className="bi bi-instagram" title="Instagram"></i></a></li>
+                                <li className="list-inline-item"><a href="https://www.instagram.com/nategraphics" className="rounded"><i className="bi bi-instagram" title="Instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
