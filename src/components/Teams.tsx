@@ -51,7 +51,7 @@ export default function Teams() {
                     <div className="team text-center rounded p-1 py-2">
                         <img src={Team11_Img} className="img-fluid avatar avatar-small shadow rounded-pill" alt=""/>
                         <div className="content mt-3">
-                            <h4 className="title mb-0">Zoser</h4>
+                            <h4 className="title mb-0">Ramses II</h4>
                             <small className="text-muted">3D Artist</small>
                             <p>A creative CG Artist with a profound potential to show the world by bringing surreal imaginations to reality.</p>
                             <ul className="list-unstyled mt-3 social-icon social mb-0">

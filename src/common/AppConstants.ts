@@ -1,7 +1,7 @@
 import BackGroundColorAttribute from '../imgs/Background-attribute.png';
 import BackWeaponAttribute from '../imgs/BackWeapon-attribute.png';
 import ClothAttribute from '../imgs/Cloth-attribute.png';
-import HandWeaponAttribute from '../imgs/HandWeapon-attribute.png';
+import HandWeaponAttribute from '../imgs/Weapon-attribute.png';
 import HatAttribute from '../imgs/Hat-attribute.png';
 import NecklaceAttribute from '../imgs/NecklaceBlue-attribute.png';
 import BodyColorAttribute from '../imgs/Body_Attribute_Color.png';
@@ -141,7 +141,7 @@ export const AppConstants: any = {
         },
         {
             name: "Shield Weapons",
-            imageUrl: ShieldWeaponAttributes,
+            imageUrl:ShieldWeaponAttributes,
             altText: "Shield Attributes"
         },
         {

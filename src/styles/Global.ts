@@ -76,6 +76,7 @@ const GlobalStyles = createGlobalStyle`
     .intro-slogan {
         color: rgb(245, 171, 33);
         background-color: rgb(237, 231, 218, 0.9);
+        margin-top: 1%;
     }
 
     .horizontal-line {
