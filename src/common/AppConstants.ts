@@ -89,7 +89,7 @@ export const AppConstants: any = {
         },
         {
             title: "How much is Almighty Pharaho Kings?",
-            answer: "SOL price is fluctuating daily. We will be observing the price and make adjustment.Mint price will be less than 1 SOL for both pre-sale and public-sale."
+            answer: "0.5 SOL"
         },
         {
             title: "Is there early supporter rewards?",
@@ -101,7 +101,7 @@ export const AppConstants: any = {
         },
         {
             title: "Will there be an aftermarket?",
-            answer: "We are working with different secondary markets to list Almight Pharaohs Collection."
+            answer: "We are working with different secondary markets to list Almighty Pharaohs Collection."
         },
         {
             title: "What is the Utility around Almighty Pharaohs DAO?",

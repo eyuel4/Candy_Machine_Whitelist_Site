@@ -14,13 +14,13 @@ export default function Family() {
                 <div className="family-item">
                     <img src={Pharaohs_Men} alt="Almighty Pharaohs King"></img>
                     <h4>Pharaohs Kings</h4>
-                    <div>Mint: 1 SOL</div>
+                    <div>Mint: 0.5 SOL</div>
                     <div>Supply: 2500</div>
                 </div>
                 <div className="family-item">
                     <img src={Pharaohs_Women} alt="Almighty Pharaohs Queen"></img>
                     <h4>Pharaohs Queen</h4>
-                    <div>Mint: 1 SOL</div>
+                    <div>Mint: TBD</div>
                     <div>Supply: 2000</div>
                 </div>
                 <div className="family-item">

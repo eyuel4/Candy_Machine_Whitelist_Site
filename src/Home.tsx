@@ -48,7 +48,10 @@ const ConnectButton = styled(WalletDialogButton)`
 const CounterText = styled.span`
 `; // add your styles here
 
-const MintContainer = styled.div``; // add your styles here
+const MintContainer = styled.div`
+  display: none;
+
+`; // add your styles here
 
 const MintButton = styled(Button)`
     color: #ffffff!important; 
@@ -271,7 +274,7 @@ const Home = (props: HomeProps) => {
 
         <br/>
         <br/>
-        {/* <MintContainer>
+        <MintContainer>
           {!wallet ? (
             <ConnectButton size="large">Connect Wallet</ConnectButton>
           ) : (
@@ -298,7 +301,7 @@ const Home = (props: HomeProps) => {
               )}
             </MintButton>
           )}
-        </MintContainer> */}
+        </MintContainer>
 
         <Snackbar
           open={alertState.open}
