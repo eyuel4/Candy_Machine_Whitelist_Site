@@ -251,6 +251,9 @@ const Home = (props: HomeProps) => {
         <h1 className="intro-header">Almighty Pharaohs Collections</h1>
         <h5 className="intro-slogan">The Pharaohs are here to conquer Solana Universe.</h5>
         <img src={Solana_Logo} width="20%" height="20%" alt="Almighty Pharaohs Execlusive on Solana"/>
+        <h4>{isSoldOut}</h4>
+        <h3>{isMinting}</h3>
+        {/* <h4>{wallet}</h4> */}
         <div className='hidden-detail'>
           {wallet && (
             <p>Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
@@ -268,7 +271,7 @@ const Home = (props: HomeProps) => {
 
         <br/>
         <br/>
-        <MintContainer>
+        {/* <MintContainer>
           {!wallet ? (
             <ConnectButton size="large">Connect Wallet</ConnectButton>
           ) : (
@@ -295,7 +298,7 @@ const Home = (props: HomeProps) => {
               )}
             </MintButton>
           )}
-        </MintContainer>
+        </MintContainer> */}
 
         <Snackbar
           open={alertState.open}
