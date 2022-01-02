@@ -34,7 +34,7 @@ export default function Teams() {
                 
                 <div className="col-lg-3 col-md-2 col-12 mt-2 pt-2">
                     <div className="team text-center rounded p-1 py-2">
-                        <img src={Team22_Img} className="img-fluid avatar avatar-medium shadow rounded-pill" alt=""/>
+                        <img src={Team11_Img} className="img-fluid avatar avatar-medium shadow rounded-pill" alt=""/>
                         <div className="content mt-3">
                             <h4 className="title mb-0">Narmer</h4>
                             <small className="text-muted">Digital Artist</small>
@@ -49,7 +49,7 @@ export default function Teams() {
                 
                 <div className="col-lg-3 col-md-2 col-12 mt-1 pt-1">
                     <div className="team text-center rounded p-1 py-2">
-                        <img src={Team11_Img} className="img-fluid avatar avatar-small shadow rounded-pill" alt=""/>
+                        <img src={Team22_Img} className="img-fluid avatar avatar-small shadow rounded-pill" alt=""/>
                         <div className="content mt-3">
                             <h4 className="title mb-0">Ramesses II</h4>
                             <small className="text-muted">3D Artist</small>
