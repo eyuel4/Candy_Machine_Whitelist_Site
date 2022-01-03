@@ -46,6 +46,10 @@ const ConnectButton = styled(WalletDialogButton)`
 `;
 
 const CounterText = styled.span`
+  /* background-color: #ebb31a; */
+  font-size: 28px;
+  color: rgb(245,171,33);
+  background-color: rgb(237,231,218,0.9);
 `; // add your styles here
 
 const MintContainer = styled.div`
@@ -105,6 +109,8 @@ const Home = (props: HomeProps) => {
   });
 
   const [startDate, setStartDate] = useState(new Date(props.startDate));
+  // console.log(new Date(1645891200000));
+  // setStartDate(startDate);
 
   const wallet = useAnchorWallet();
   const [candyMachine, setCandyMachine] = useState<CandyMachine>();
@@ -129,7 +135,8 @@ const Home = (props: HomeProps) => {
       setItemsRedeemed(itemsRedeemed);
 
       setIsSoldOut(itemsRemaining === 0);
-      setStartDate(goLiveDate);
+      console.log(goLiveDate);
+      setStartDate(new Date(1645891200000));
       setCandyMachine(candyMachine);
 
     })();
@@ -257,6 +264,12 @@ const Home = (props: HomeProps) => {
         <h4>{isSoldOut}</h4>
         <h3>{isMinting}</h3>
         {/* <h4>{wallet}</h4> */}
+        <Countdown
+                  date={new Date(1645891200000)}
+                  onMount={({ completed }) => completed && setIsActive(false)}
+                  onComplete={() => setIsActive(true)}
+                  renderer={renderCounter}
+                />
         <div className='hidden-detail'>
           {wallet && (
             <p>Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
@@ -329,7 +342,7 @@ interface AlertState {
 const renderCounter = ({ days, hours, minutes, seconds, completed }: any) => {
   return (
     <CounterText>
-      {hours + (days || 0) * 24} hours, {minutes} minutes, {seconds} seconds
+      {days - 2} days,{ hours + (days - (days -2) || 0) * 24} hours, {minutes} minutes, {seconds} seconds
     </CounterText>
   );
 };
