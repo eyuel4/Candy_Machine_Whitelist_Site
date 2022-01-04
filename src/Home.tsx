@@ -342,7 +342,7 @@ interface AlertState {
 const renderCounter = ({ days, hours, minutes, seconds, completed }: any) => {
   return (
     <CounterText>
-      {days - 2} days,{ hours + (days - (days -2) || 0) * 24} hours, {minutes} minutes, {seconds} seconds
+      {days} days,{ hours + (days - (days ) || 0) * 24} hours, {minutes} minutes, {seconds} seconds
     </CounterText>
   );
 };
