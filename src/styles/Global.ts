@@ -96,7 +96,7 @@ const GlobalStyles = createGlobalStyle`
     .social-home {
         display: flex;
         flex-direction: row;
-        padding-top: 2%;
+        padding-top: 3%;
     }
 
     .social-icon {
@@ -118,17 +118,17 @@ const GlobalStyles = createGlobalStyle`
     
     .bi-discord {
         font-size: 2em;
-        color: #f5ab21;
+        color: #1e5887;
     }
     
     .bi-twitter {
         font-size: 2em;
-        color: #f5ab21;
+        color: #1e5887;
     }
 
   .bi-instagram {
     font-size: 2em;
-    color: #f5ab21;
+    color: #1e5887;
   }
 
     /* Small devices (tablets, 768px and below) */
