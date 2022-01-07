@@ -47,9 +47,16 @@ const ConnectButton = styled(WalletDialogButton)`
 
 const CounterText = styled.span`
   /* background-color: #ebb31a; */
-  font-size: 28px;
-  color: rgb(245,171,33);
+  font-size: 20px;
+  color: #ec1818;
   background-color: rgb(237,231,218,0.9);
+
+      /* Small devices (tablets, 768px and below) */
+      @media (max-width: 768px) { 
+        font-size: 16px;
+        color: #ec1818;
+        background-color: rgb(237,231,218,0.9);
+      }
 `; // add your styles here
 
 const MintContainer = styled.div`
@@ -270,6 +277,13 @@ const Home = (props: HomeProps) => {
                   onComplete={() => setIsActive(true)}
                   renderer={renderCounter}
                 />
+              <div >
+                <ul className="social-home"> 
+                  <li><span className="social-icon"><a href="https://discord.gg/3mDYkxCA5r"><i className="bi bi-discord fa-lg"></i></a></span></li>
+                  <li><span className="social-icon"><a href="https://twitter.com/AlmightyPharaoz"><i className="bi bi-twitter fa-lg"></i></a></span></li>
+                  <li><span className="social-icon"><a href="https://www.instagram.com/almightypharaohs"><i className="bi bi-instagram fa-lg"></i></a></span></li>
+                </ul>
+              </div>
         <div className='hidden-detail'>
           {wallet && (
             <p>Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}</p>

@@ -93,6 +93,44 @@ const GlobalStyles = createGlobalStyle`
         display: none;
     }
 
+    .social-home {
+        display: flex;
+        flex-direction: row;
+        padding-top: 2%;
+    }
+
+    .social-icon {
+        height: 30px;
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 14px;
+        border-radius: 7px;
+        margin-right: 11px;
+        cursor: pointer;
+    }
+  
+    .social-icon:hover {
+        border: #f0bc11 solid 1px;
+    }
+    
+    .bi-discord {
+        font-size: 2em;
+        color: #f5ab21;
+    }
+    
+    .bi-twitter {
+        font-size: 2em;
+        color: #f5ab21;
+    }
+
+  .bi-instagram {
+    font-size: 2em;
+    color: #f5ab21;
+  }
+
     /* Small devices (tablets, 768px and below) */
     @media (max-width: 768px) { 
         .intro-header {
