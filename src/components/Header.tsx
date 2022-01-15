@@ -9,11 +9,11 @@ export default function Header() {
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
+                <a className="navbar-brand text-info font-weight-bolder" href="/">
+                    <img src={Logo} alt="Logo" width="90" height="90" className="vertical-align-middle" />
+                    <span className="brand-title">Almighty Pharaohs</span>
+                </a>
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <a className="navbar-brand text-info font-weight-bolder" href="/">
-                        <img src={Logo} alt="Logo" width="90" height="90" className="vertical-align-middle" />
-                        <span className="brand-title">Almighty Pharaohs</span>
-                    </a>
                     <ul className="navbar-nav me-auto mb-2 mb-md-0">
                         <li className="nav-item" key="home">
                             <Link activeClass="active" to="home" spy={true} smooth={true} offset={-70} duration={500}>Home</Link>

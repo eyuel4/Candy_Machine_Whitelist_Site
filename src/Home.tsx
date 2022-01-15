@@ -266,10 +266,10 @@ const Home = (props: HomeProps) => {
     <main className="container-fluid home-section">
       <div className="intro-section"> 
         <h1 className="intro-header">Almighty Pharaohs Collections</h1>
-        <h5 className="intro-slogan">The Pharaohs are here to conquer Solana Universe.</h5>
+        {/* <h5 className="intro-slogan">The Pharaohs are here to conquer Solana Universe.</h5> */}
         <img src={Solana_Logo} width="20%" height="20%" alt="Almighty Pharaohs Execlusive on Solana"/>
         <h4>{isSoldOut}</h4>
-        <h3>{isMinting}</h3>
+        {/* <h3>{isMinting}</h3> */}
         {/* <h4>{wallet}</h4> */}
         <Countdown
                   date={new Date(1645891200000)}

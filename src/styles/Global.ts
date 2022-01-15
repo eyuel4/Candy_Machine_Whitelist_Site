@@ -96,7 +96,7 @@ const GlobalStyles = createGlobalStyle`
     .social-home {
         display: flex;
         flex-direction: row;
-        padding-top: 5%;
+        padding-top: 15%;
         list-style-type: none;
     }
 
@@ -119,15 +119,15 @@ const GlobalStyles = createGlobalStyle`
     }
     
     .bi-discord {
-        color: rgb(245,171,33);
+        color: blue;
     }
     
     .bi-twitter {
-        color: rgb(245,171,33);
+        color: rgb(0, 172, 238);
     }
 
   .bi-instagram {
-    color: rgb(245,171,33);
+    color: rgb(138, 58, 185);
   }
 
     /* Small devices (tablets, 768px and below) */
