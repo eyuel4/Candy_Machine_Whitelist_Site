@@ -21,10 +21,7 @@ export default function About() {
                         <h4>About </h4>
 
                         <p>
-                            The story of Almighty Pharaohs begins around 3100 BC in Ancient Egypt from when the north and the south were united as one country under the first pharaoh Menes.
-                            2500 Egyptian Pharaohs have come to conquer Solana world. 
-                            The 2500 Pharaohs are created by a generative algorithm of which each of them has different power, traits, and skill in a fight.
-                            The Kings will be joining the war and once the mint war is over they will be bringing their queen and kids to Solana Universe once they secure its safe.
+                        The story of Almighty Pharaohs begins around 3100 BC in Ancient Egypt from when the north and the south were united as one country under the first pharaoh Menes. 2500 Egyptian Pharaohs have come to conquer the Solana world. The 2500 Pharaohs are created by a generative algorithm of which each of them has different powers, traits, and skills in a fight. The Kings will be joining the war, and once the mint war is over they will be bringing their queen and kids to Solana Universe once they secure its safe.
                         </p>
                     </div>
                 </div>

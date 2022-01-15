@@ -279,9 +279,9 @@ const Home = (props: HomeProps) => {
                 />
               <div >
                 <ul className="social-home"> 
-                  <li><span className="social-icon"><a href="https://discord.gg/3mDYkxCA5r"><i className="bi bi-discord fa-lg"></i></a></span></li>
-                  <li><span className="social-icon"><a href="https://twitter.com/AlmightyPharaoz"><i className="bi bi-twitter fa-lg"></i></a></span></li>
-                  <li><span className="social-icon"><a href="https://www.instagram.com/almightypharaohs"><i className="bi bi-instagram fa-lg"></i></a></span></li>
+                  <li><span className="social-icon-home"><a href="https://discord.gg/3mDYkxCA5r"><i className="bi bi-discord fa-lg"></i></a></span></li>
+                  <li><span className="social-icon-home"><a href="https://twitter.com/AlmightyPharaoz"><i className="bi bi-twitter fa-lg"></i></a></span></li>
+                  <li><span className="social-icon-home"><a href="https://www.instagram.com/almightypharaohs"><i className="bi bi-instagram fa-lg"></i></a></span></li>
                 </ul>
               </div>
         <div className='hidden-detail'>

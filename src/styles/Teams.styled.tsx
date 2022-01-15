@@ -82,6 +82,7 @@ export const StyledTeams = styled.section`
 
     .team:hover .team-social {
         opacity: 1;
+        color: #f0bc11 !important;
     }
 
     .social-icon.social li a {
@@ -89,8 +90,8 @@ export const StyledTeams = styled.section`
             border-color: #adb5bd;
     }
     .social-icon li a {
-        color: #35404e;
-        border: 1px solid #35404e;
+        color: #d6ba17;
+        border: 1px solid #d6ba17;
         display: inline-block;
         height: 32px;
         text-align: center;
@@ -103,8 +104,8 @@ export const StyledTeams = styled.section`
         position: relative;
     }
 
-    .social-icon.social li a:hover {
-            color: #e7c921;
+    .social-icon .social li a:hover {
+            color: #e7c921!important;
             border-color: #e9c214;
     }
 
@@ -159,6 +160,7 @@ export const StyledTeams = styled.section`
         .row {
             margin: 0;
         }
+        
     }
 
     .rounded {
