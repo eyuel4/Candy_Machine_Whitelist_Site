@@ -54,7 +54,7 @@ export const AppConstants: any = {
             status: false
         },
         {
-            title: '05 - Almighty Pharaohs Game. (Q2-2022)',
+            title: '05 - Almighty Pharaohs P2E Game. (Q2-2022)',
             tasks: new Map<string, boolean>([
                 ['Free airdrops of Almighty Pharaohs Kids to holders of King and Queen Pharaohs.', false],
                 ['$Daric Utility Token', false],
