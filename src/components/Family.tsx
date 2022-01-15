@@ -19,13 +19,13 @@ export default function Family() {
                 </div>
                 <div className="family-item">
                     <img src={Pharaohs_Women} alt="Almighty Pharaohs Queen"></img>
-                    <h4>Pharaohs Queen</h4>
-                    <div>Mint: TBD</div>
+                    <h4>3D-Pharaohs Queen</h4>
+                    <div>Mint: TBA</div>
                     <div>Supply: 2000</div>
                 </div>
                 <div className="family-item">
                     <img src={Pharaohs_Baby} alt="Almighty Pharaohs Baby"></img>
-                    <h4>Baby Pharaohs</h4>
+                    <h4>3D-Baby Pharaohs</h4>
                     <div>Mint: TBA</div>
                     <div>Supply: Free Airdrop for Kings and Queen holders.</div>
                 </div>
