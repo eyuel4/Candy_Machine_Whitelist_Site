@@ -98,7 +98,7 @@ export const AppConstants: any = {
         },
         {
             title: "How much is Almighty Pharaho Kings?",
-            answer: "0.5 SOL"
+            answer: "White List 0.05 SOL and Public sale 0.08 SOL"
         },
         {
             title: "Is there early supporter rewards?",

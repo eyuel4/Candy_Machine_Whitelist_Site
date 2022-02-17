@@ -14,7 +14,8 @@ export default function Family() {
                 <div className="family-item">
                     <img src={Pharaohs_Men} alt="Almighty Pharaohs King"></img>
                     <h4>Pharaohs Kings</h4>
-                    <div>Mint: 0.5 SOL</div>
+                    <div>Mint: WL 0.05 SOL </div>
+                    <div> Public Sale 0.08 SOL</div>
                     <div>Supply: 2500</div>
                 </div>
                 <div className="family-item">
